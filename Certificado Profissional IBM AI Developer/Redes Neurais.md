@@ -18,3 +18,17 @@ Uma rede neural artificial é composta por unidades menores chamadas neurônios,
 Os perceptrons são os tipos mais simples de redes neurais, consistindo em uma camada única de nós de entrada conectados diretamente a um nó de saída. As entradas são processadas através de multiplicação por pesos e soma, enviando a saída para camadas ocultas e de saída. Cada nó possui uma polarização, um tipo especial de peso que ajusta o comportamento do nó após considerar outras entradas. Funções de ativação determinam como os nós respondem às entradas, crucial para o desempenho da rede.
 
 Redes neurais convolucionais (CNNs) são redes multilayer inspiradas no córtex visual dos animais, ideais para tarefas como processamento de imagens, reconhecimento de vídeo e linguagem natural. Utilizam operações matemáticas de convolução para detectar estruturas simples e combiná-las em características complexas ao longo de várias camadas. Por outro lado, redes neurais recorrentes (RNNs) são recorrentes porque processam sequências, com saídas anteriores influenciando entradas subsequentes. Em contraste com redes neurais tradicionais, RNNs consideram dependências temporais, úteis em cenários onde o contexto de observações anteriores é essencial para a tomada de decisão, como em modelos de linguagem ou previsão de séries temporais.
+
+
+# Informações Extras
+Convolução, no contexto de redes neurais convolucionais (CNNs), é uma operação matemática fundamental que combina duas funções para produzir uma terceira função. Em termos mais simples, na visão computacional, convolução refere-se a um processo no qual uma matriz (filtro ou kernel) é aplicada a uma imagem para produzir uma nova imagem que destaca características específicas. Esse processo é essencial para extrair características significativas das imagens de entrada, como bordas, texturas e padrões, que são então utilizadas para análise e reconhecimento.
+
+A operação de convolução em uma CNN envolve três componentes principais:
+
+1. **Filtro (Kernel)**: É uma matriz pequena que desliza sobre a imagem original, multiplicando-se elemento por elemento e somando os resultados para produzir um único valor na imagem de saída. Cada filtro destaca uma característica diferente da imagem de entrada.
+
+2. **Mapa de Características de Saída**: É a imagem resultante da aplicação do filtro à imagem de entrada. Cada posição no mapa de características de saída representa o resultado da convolução em uma região específica da imagem.
+
+3. **Operação de Deslizamento**: O filtro desliza pela imagem de entrada em incrementos definidos (passo), calculando a convolução em cada posição. O tamanho do passo determina a sobreposição entre áreas adjacentes da imagem de entrada, afetando a resolução e a dimensionalidade do mapa de características de saída.
+
+Em resumo, a convolução em CNNs é fundamental para extrair padrões significativos e características úteis das imagens, facilitando tarefas como reconhecimento de objetos, classificação de imagens e segmentação semântica.
