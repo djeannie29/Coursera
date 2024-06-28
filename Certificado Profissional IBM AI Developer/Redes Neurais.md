@@ -32,3 +32,12 @@ A operação de convolução em uma CNN envolve três componentes principais:
 3. **Operação de Deslizamento**: O filtro desliza pela imagem de entrada em incrementos definidos (passo), calculando a convolução em cada posição. O tamanho do passo determina a sobreposição entre áreas adjacentes da imagem de entrada, afetando a resolução e a dimensionalidade do mapa de características de saída.
 
 Em resumo, a convolução em CNNs é fundamental para extrair padrões significativos e características úteis das imagens, facilitando tarefas como reconhecimento de objetos, classificação de imagens e segmentação semântica.
+
+## Links
+Modelos de  aprendizado de máquina - https://developer.ibm.com/articles/cc-models-machine-learning/
+
+Aplicações da aprendizagem profunda - https://www.ibm.com/blogs/think/category/deep-learning 
+
+Um mergulho profundo nas redes neurais - https://developer.ibm.com/articles/cc-cognitive-neural-networks-deep-dive/?mhq=neural%20networks&mhsrc=ibmsearch_a
+
+  
